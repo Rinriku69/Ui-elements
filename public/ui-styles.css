@@ -1,0 +1,23 @@
+tr, td{
+    
+    border: 1px solid black;
+}
+
+table {
+    
+    border-collapse: collapse;
+}
+
+td{
+    
+    padding: 5px 5px 5px 5px;
+}
+
+.table{
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    
+}
+
