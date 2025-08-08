@@ -34,7 +34,7 @@ class PayController extends Controller
     $priceincludevat = $priceexcludevat + $vat_cost;
 
 
- /*if($tax == 1){
+    /*if($tax == 1){
      if($tax_value == 0.05){
      $tax_cost = $priceexcludevat * $tax_value;
      $payment = $priceincludevat - $tax_cost;
@@ -70,7 +70,6 @@ if($tax == 1){
         
     }
     $payment = $priceincludevat - $tax_cost;
-
 
     return view('payment.result',[
      'priceexcludevat' => (float)$priceexcludevat,

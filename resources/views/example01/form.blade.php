@@ -4,7 +4,7 @@
 
 @section('content')
 <main>
-    <form action="{{route('example.result')}}" method="post">
+    <form action="{{route('example01.result')}}" method="post">
     @csrf
 
       <label>

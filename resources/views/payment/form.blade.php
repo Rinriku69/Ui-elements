@@ -20,7 +20,7 @@
     </label><br>
 
 
-    <label>
+     <label>
         <input type="checkbox" name="tax" value="1"> <b>Has Tax</b>
      </label>
      <label><input type="radio" name="tax_value" value="5" /> 5%

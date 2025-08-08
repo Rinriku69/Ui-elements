@@ -1,14 +1,15 @@
 @extends('layouts.main',[
-    'title' => "Area result"
+    'title' => 'Result',
 ])
 
-
 @section('content')
-<main>
-    <b>Type::</b>{{$type}}<br>
-    <b>Width::</b>{{$width}}<br>
-    <b>Heigh::</b>{{$heigh}}<br>
-    <b>Area::</b>{{$area}}<br>
+<main> 
+    <dl>
+    <dt>Type::{{$type}}</dt>
+    <dt>Heigh::{{$heigh}}</dt>
+    <dt>Width::{{$width}}</dt>
+    <dt>Area::{{$area}}</dt>
+    </dl>
 </main>
     
 @endsection
