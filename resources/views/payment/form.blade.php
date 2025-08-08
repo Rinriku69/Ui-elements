@@ -20,16 +20,16 @@
     </label><br>
 
 
-     <label>
+    <label>
         <input type="checkbox" name="tax" value="1"> <b>Has Tax</b>
      </label>
-     <label><input type="radio" name="tax_value" value="0.05" /> 5%
+     <label><input type="radio" name="tax_value" value="5" /> 5%
     </label>
-    <label><input type="radio" name="tax_value" value="0.03" checked/> 3%
+    <label><input type="radio" name="tax_value" value="3" checked/> 3%
     </label>
-    <label><input type="radio" name="tax_value" value="0.02" /> 2%
+    <label><input type="radio" name="tax_value" value="2" /> 2%
     </label>
-    <label><input type="radio" name="tax_value" value="0.01" /> 1%
+    <label><input type="radio" name="tax_value" value="1" /> 1%
     </label><br>
 
 
